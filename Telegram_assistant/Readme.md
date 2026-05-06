@@ -1,3 +1,6 @@
+<img width="1151" height="512" alt="Screenshot 2026-05-06 at 20 15 40" src="https://github.com/user-attachments/assets/9e9cc739-ccfe-4e08-ba86-f2c0f6bdac11" />
+
+
 # 🤖 Telegram AI Assistant — n8n Automation
 
 An AI-powered Telegram assistant built with n8n that supports both text and voice conversations using OpenAI.
@@ -59,7 +62,7 @@ The workflow intelligently detects message types, transcribes audio messages, ma
 * n8n
 * Telegram Bot API
 * OpenAI
-* Whisper / Audio Transcription
+* Whisper
 * AI Agents
 * Memory Nodes
 
@@ -67,24 +70,7 @@ The workflow intelligently detects message types, transcribes audio messages, ma
 
 This workflow enables seamless AI conversations on Telegram with support for both typed and spoken interactions.
 
-## 🔧 Customization Ideas
 
-* Add image understanding
-* Connect Google Calendar or Gmail
-* Add Pinecone vector memory
-* Support multiple languages
-* Add sentiment analysis
-* Connect databases or CRMs
-* Add tool-calling agents
-
-## 📌 Future Improvements
-
-* Long-term AI memory
-* Voice response generation
-* RAG-based knowledge assistant
-* Multi-user personalization
-* Autonomous task execution
-* Smart workflow chaining
 
 ## 📝 License
 
