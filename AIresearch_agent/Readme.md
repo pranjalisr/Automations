@@ -1,3 +1,6 @@
+<img width="1151" height="512" alt="Screenshot 2026-05-06 at 20 42 28" src="https://github.com/user-attachments/assets/41c44e15-46fd-4b5e-b425-ce20d6140a32" />
+
+
 # 🔎 AI Research Agent — n8n Automation
 
 An AI-powered research assistant built with n8n that combines OpenAI reasoning with real-time search, Wikipedia knowledge retrieval, and Hacker News data.
