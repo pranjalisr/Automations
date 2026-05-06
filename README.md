@@ -50,7 +50,7 @@ The goal of this repository is to build production-ready and reusable automation
 ## Repository Structure
 
 ```bash
-/workflows
+/Automations
   ├── ai-assistants/
   ├── telegram/
   ├── productivity/
