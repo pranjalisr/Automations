@@ -1,3 +1,6 @@
+<img width="1151" height="512" alt="Screenshot 2026-05-06 at 20 20 13" src="https://github.com/user-attachments/assets/764c7d2a-ba9a-4d93-b86d-961eb3feb20f" />
+
+
 # 🤖 Telegram AI Productivity Assistant — n8n Automation
 
 An AI-powered Telegram assistant built with n8n that supports text and voice conversations while integrating Gmail and Google Calendar automation.
@@ -94,14 +97,6 @@ This workflow combines conversational AI, voice transcription, email automation,
 * Add weather/news tools
 * Add document summarization
 
-## 📌 Future Improvements
-
-* Long-term memory storage
-* Autonomous AI scheduling
-* Voice reply generation
-* Smart task planning
-* RAG-based personal knowledge assistant
-* Multi-agent collaboration
 
 ## 📝 License
 
