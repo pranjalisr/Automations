@@ -1,3 +1,6 @@
+<img width="1058" height="473" alt="Screenshot 2026-05-06 at 19 50 55" src="https://github.com/user-attachments/assets/0c0cb333-ce47-48e5-96f3-3253671de354" />
+
+
 # 🤖 MCP AI Assistant — n8n Automation
 
 An intelligent MCP-powered AI assistant built with n8n that connects productivity tools, vector search, spreadsheets, email, and calendar operations into a single automated workflow.
