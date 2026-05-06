@@ -1,3 +1,6 @@
+<img width="1151" height="512" alt="Screenshot 2026-05-06 at 20 37 06" src="https://github.com/user-attachments/assets/8acd178a-0156-4935-99db-5c52c7c4d343" />
+
+
 # 🤖 Telegram AI Chatbot — n8n Automation
 
 A smart AI-powered Telegram chatbot built with n8n using OpenAI Agents, conversational memory, calculator tools, and external search capabilities.
