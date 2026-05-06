@@ -1,3 +1,6 @@
+<img width="1151" height="565" alt="Screenshot 2026-05-06 at 20 50 29" src="https://github.com/user-attachments/assets/da942e14-2c05-490e-b26c-f05972358c43" />
+
+
 # 🤖 AI Job Search & Resume Matching Automation — n8n Workflow
 
 An AI-powered job discovery and resume matching automation built with n8n that automatically searches LinkedIn jobs, analyzes resumes, evaluates job relevance using AI, updates Google Sheets, and sends personalized email notifications.
