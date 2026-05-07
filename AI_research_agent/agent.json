@@ -11,7 +11,6 @@
         -784,
         -192
       ],
-      "id": "f3129c55-1215-43db-b46b-492b5fc691de",
       "name": "When Executed by Another Workflow"
     },
     {
@@ -26,7 +25,6 @@
         -576,
         -192
       ],
-      "id": "b7d4e7b7-694b-4739-a18e-cb21cf495016",
       "name": "AI Agent"
     },
     {
@@ -46,14 +44,7 @@
         -720,
         16
       ],
-      "id": "17765ca8-e6fd-4452-ab59-5d1ba240e045",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {},
@@ -63,7 +54,6 @@
         -512,
         32
       ],
-      "id": "49f0b6a8-0150-484d-bcf4-2c2c10072917",
       "name": "Wikipedia"
     },
     {
@@ -80,7 +70,6 @@
         -384,
         64
       ],
-      "id": "9683443b-a522-495c-86ec-3e649da152d7",
       "name": "Get many items in Hacker News"
     },
     {
@@ -93,7 +82,6 @@
         -240,
         48
       ],
-      "id": "f09cc11a-603d-4302-a44a-9702db196fa8",
       "name": "SerpAPI"
     }
   ],
@@ -160,11 +148,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "267e77ce-4af6-4010-9473-e0e9e4e2994b",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
-  "id": "JFi2YY2qA6Usg7k2x3see",
   "tags": []
 }

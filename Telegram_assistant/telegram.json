@@ -14,15 +14,7 @@
         -928,
         160
       ],
-      "id": "232fd8b1-0df1-4547-8628-0dc31ef975ac",
-      "name": "Telegram Trigger",
-      "webhookId": "ce46e5e1-39f7-47b5-908f-549e2c94ddf6",
-      "credentials": {
-        "telegramApi": {
-          "id": "EqabWs61EgejuEGJ",
-          "name": "Telegram account"
-        }
-      }
+      "name": "Telegram Trigger"
     },
     {
       "parameters": {
@@ -43,8 +35,7 @@
                     "operator": {
                       "type": "string",
                       "operation": "equals"
-                    },
-                    "id": "9ab7e8a2-4b39-417d-9423-ea8a006ca888"
+                    }
                   }
                 ],
                 "combinator": "and"
@@ -62,7 +53,6 @@
                 },
                 "conditions": [
                   {
-                    "id": "a1288faf-32e3-4545-bd39-c7884a9c391a",
                     "leftValue": "",
                     "rightValue": "",
                     "operator": {
@@ -87,7 +77,6 @@
         -736,
         160
       ],
-      "id": "a3109518-c8d3-4ef6-a6ca-86b1a0d04640",
       "name": "Switch"
     },
     {
@@ -95,7 +84,6 @@
         "assignments": {
           "assignments": [
             {
-              "id": "8dc4cc01-f6ed-4d14-b1db-bb0ec2ed302d",
               "name": "text",
               "value": "",
               "type": "string"
@@ -110,7 +98,6 @@
         -272,
         64
       ],
-      "id": "1cec57dc-344c-4802-9184-8e3c9de409d0",
       "name": "Edit Fields"
     },
     {
@@ -127,7 +114,6 @@
         -64,
         64
       ],
-      "id": "112cae77-a901-4648-b035-68d645d2bf20",
       "name": "AI Agent"
     },
     {
@@ -147,14 +133,7 @@
         -64,
         320
       ],
-      "id": "ae65d925-6adb-4bd5-afe1-d82f5440b1cd",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -168,15 +147,7 @@
         -496,
         256
       ],
-      "id": "d7eceee5-7b66-4622-993e-510e0caf7760",
-      "name": "Get a file",
-      "webhookId": "dd2d79f8-df36-436e-97f9-4e099d149eef",
-      "credentials": {
-        "telegramApi": {
-          "id": "EqabWs61EgejuEGJ",
-          "name": "Telegram account"
-        }
-      }
+      "name": "Get a file"
     },
     {
       "parameters": {
@@ -190,14 +161,7 @@
         -288,
         256
       ],
-      "id": "458038a7-2987-4f28-a560-710f07ad84ab",
-      "name": "Transcribe a recording",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Transcribe a recording"
     },
     {
       "parameters": {
@@ -209,7 +173,6 @@
         32,
         480
       ],
-      "id": "4c2b86f7-5f1f-41a0-ab18-7b70f5dd734c",
       "name": "Simple Memory"
     },
     {
@@ -224,15 +187,7 @@
         288,
         64
       ],
-      "id": "84907fcf-fd22-4034-99dc-51a6964e09f8",
-      "name": "Send a text message",
-      "webhookId": "7ef33d4a-a9ec-46c4-9021-c06b8f09ecf8",
-      "credentials": {
-        "telegramApi": {
-          "id": "EqabWs61EgejuEGJ",
-          "name": "Telegram account"
-        }
-      }
+      "name": "Send a text message"
     },
     {
       "parameters": {
@@ -241,7 +196,6 @@
           "__rl": true,
           "value": "JFi2YY2qA6Usg7k2x3see",
           "mode": "list",
-          "cachedResultUrl": "/workflow/JFi2YY2qA6Usg7k2x3see",
           "cachedResultName": "Telegram1 sub"
         },
         "workflowInputs": {
@@ -259,7 +213,6 @@
         288,
         464
       ],
-      "id": "8a5db4ca-3d4a-4e3a-98f8-be297b70160a",
       "name": "Call 'Telegram1 sub'"
     }
   ],
@@ -377,11 +330,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "850a4696-5130-494c-b16d-3a61f4279288",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
-  "id": "7ClWsGnBwBMr-flsQ6fSE",
   "tags": []
 }

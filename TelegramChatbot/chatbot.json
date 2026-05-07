@@ -14,15 +14,7 @@
         -1472,
         -512
       ],
-      "id": "97d768c4-cba9-430d-bedf-e60d0419e2cb",
-      "name": "Telegram Trigger",
-      "webhookId": "ff652268-cdec-4f55-bab2-02fcf762da72",
-      "credentials": {
-        "telegramApi": {
-          "id": "EqabWs61EgejuEGJ",
-          "name": "Telegram account"
-        }
-      }
+      "name": "Telegram Trigger"
     },
     {
       "parameters": {
@@ -38,7 +30,6 @@
         -1264,
         -512
       ],
-      "id": "79d6da95-a4a4-4976-ad84-1a6dc08ca034",
       "name": "AI Agent"
     },
     {
@@ -57,14 +48,7 @@
         -1264,
         -320
       ],
-      "id": "96dc3d16-57f5-4606-92b9-872ecdea8484",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -80,15 +64,7 @@
         -912,
         -512
       ],
-      "id": "8052ba5f-97b8-48df-9963-a95f2844112a",
-      "name": "Send a text message",
-      "webhookId": "66635842-b75f-41a6-9e15-4b942b371ef9",
-      "credentials": {
-        "telegramApi": {
-          "id": "EqabWs61EgejuEGJ",
-          "name": "Telegram account"
-        }
-      }
+      "name": "Send a text message"
     },
     {
       "parameters": {
@@ -100,7 +76,6 @@
         -1168,
         -208
       ],
-      "id": "8f3a404d-14d2-4421-bfff-e80c1d5dcb30",
       "name": "Simple Memory"
     },
     {
@@ -110,7 +85,6 @@
           "__rl": true,
           "value": "JFi2YY2qA6Usg7k2x3see",
           "mode": "list",
-          "cachedResultUrl": "/workflow/JFi2YY2qA6Usg7k2x3see",
           "cachedResultName": "Telegram1 sub"
         },
         "workflowInputs": {
@@ -128,7 +102,6 @@
         -1024,
         -256
       ],
-      "id": "a100e300-6ee2-480e-8e9b-04fbf59d06cd",
       "name": "search_agent"
     },
     {
@@ -139,7 +112,6 @@
         -1120,
         -304
       ],
-      "id": "5ecf336f-2cf8-47e4-b307-78289046cc48",
       "name": "Calculator"
     }
   ],
@@ -222,11 +194,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "d165d4c8-e446-4f45-b575-499b86fa530b",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
-  "id": "_vZmJLZOs_q3K6iUsg85w",
   "tags": []
 }
