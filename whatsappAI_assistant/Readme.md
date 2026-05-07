@@ -1,3 +1,6 @@
+<img width="953" height="549" alt="Screenshot 2026-05-07 at 20 32 14" src="https://github.com/user-attachments/assets/4131793c-8eee-4b44-8514-ba0241c63753" />
+
+
 # 🤖 WhatsApp AI Assistant — n8n Automation
 
 An AI-powered WhatsApp assistant built with n8n that enables intelligent conversations, contextual memory, calculations, Wikipedia search, and Gmail automation directly from WhatsApp.
