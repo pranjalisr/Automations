@@ -1,3 +1,6 @@
+<img width="1308" height="562" alt="Screenshot 2026-05-09 at 00 01 58" src="https://github.com/user-attachments/assets/1a489139-77e4-409b-b00b-bdd904f295b3" />
+
+
 # 📩 Gmail to Pinecone Vector Store — n8n Workflow
 
 An AI-powered document ingestion workflow built with n8n that extracts content from documents and stores semantic embeddings inside a Pinecone vector database using OpenAI embeddings.
