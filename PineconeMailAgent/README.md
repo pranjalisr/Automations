@@ -1,3 +1,5 @@
+<img width="1308" height="562" alt="Screenshot 2026-05-08 at 23 55 25" src="https://github.com/user-attachments/assets/82b86216-6f6d-41e8-b8a1-189a72ac89a2" />
+
 # 📧 AI Mail Agent with Pinecone — n8n Workflow
 
 An AI-powered mail assistant built with n8n that can answer questions using a Pinecone vector store and send emails through an automated mail tool.
