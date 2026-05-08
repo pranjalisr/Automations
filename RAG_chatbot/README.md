@@ -1,49 +1,51 @@
-# 📂 Google Drive to Pinecone RAG Pipeline — n8n Workflow
+<img width="1177" height="562" alt="Screenshot 2026-05-09 at 00 20 33" src="https://github.com/user-attachments/assets/cf740c38-9fef-464a-8aa7-142ffd2520cb" />
 
-An automated AI ingestion pipeline built with n8n that watches Google Drive for newly uploaded files, processes documents, generates OpenAI embeddings, and stores them inside a Pinecone vector database for Retrieval-Augmented Generation (RAG) systems.
 
-This workflow enables fully automated knowledge base creation from documents stored in Google Drive.
+# 🤖 Google Drive RAG Chatbot Pipeline — n8n Workflow
+
+An AI-powered RAG (Retrieval-Augmented Generation) pipeline built with n8n that automatically converts documents from Google Drive into a searchable knowledge base using OpenAI embeddings and Pinecone Vector Store.
+
+This workflow acts as the backend ingestion system for a RAG chatbot, enabling AI assistants to answer questions using custom uploaded documents.
 
 ## 🚀 Features
 
-* 📁 Google Drive file monitoring
-* ⚡ Automatic document ingestion
+* 📂 Automatic Google Drive file monitoring
+* 📄 Document ingestion and processing
+* ✂️ Intelligent text chunking
 * 🧠 OpenAI embedding generation
-* 🔎 Pinecone vector database storage
-* ✂️ Recursive text chunking
-* 📚 RAG-ready architecture
-* 🤖 AI knowledge base automation
-* 🔄 Real-time vector indexing
+* 🔎 Pinecone vector database integration
+* 🤖 RAG chatbot backend pipeline
+* ⚡ Real-time knowledge base updates
+* 📚 Semantic search-ready architecture
 
 ## 🏗 Workflow Overview
 
-### 1️⃣ Google Drive Monitoring
+### 1️⃣ Google Drive Trigger
 
-The workflow automatically triggers whenever a new file is uploaded to Google Drive.
+The workflow automatically starts whenever a new file is uploaded to Google Drive.
 
-### 2️⃣ File Download
+### 2️⃣ File Processing
 
-* The uploaded file is downloaded automatically.
+* Downloads the uploaded file
+* Extracts document content using the Default Data Loader
 
-### 3️⃣ Document Processing
+### 3️⃣ Text Chunking
 
-* Default Data Loader extracts document content.
-* Recursive Character Text Splitter breaks large documents into optimized chunks.
+* Recursive Character Text Splitter breaks documents into optimized chunks for retrieval accuracy
 
 ### 4️⃣ Embedding Generation
 
-* OpenAI Embeddings convert text chunks into semantic vectors.
+* OpenAI Embeddings convert text chunks into semantic vectors
 
-### 5️⃣ Pinecone Storage
+### 5️⃣ Pinecone Vector Storage
 
-* The embeddings are stored inside Pinecone Vector Store for future retrieval.
+* The generated embeddings are stored in Pinecone Vector Store
 
-The indexed data can later power:
+The indexed data can then be used by a RAG chatbot to:
 
-* AI chatbots
-* RAG systems
-* Semantic search engines
-* Internal knowledge assistants
+* Answer questions from uploaded documents
+* Retrieve contextual knowledge
+* Generate grounded AI responses
 
 ## 🧩 Nodes Used
 
@@ -56,13 +58,14 @@ The indexed data can later power:
 
 ## 💡 Example Use Cases
 
-* Automated RAG pipeline
-* AI document search
-* Internal company knowledge base
-* Smart document indexing
-* AI-powered file retrieval
-* Customer support knowledge systems
-* Research assistant infrastructure
+* RAG chatbot backend
+* AI document assistant
+* Knowledge base chatbot
+* PDF Q&A system
+* Internal documentation search
+* AI learning assistant
+* Customer support knowledge retrieval
+* Research document chatbot
 
 ## ⚙️ Tech Stack
 
@@ -75,7 +78,7 @@ The indexed data can later power:
 
 ## 📸 Workflow Preview
 
-This workflow automatically converts uploaded Google Drive documents into searchable semantic vectors stored inside Pinecone for AI-powered retrieval applications.
+This workflow automatically transforms uploaded Google Drive documents into searchable embeddings that power intelligent RAG chatbot conversations.
 
 
 ## 📝 License
