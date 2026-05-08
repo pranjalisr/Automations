@@ -12,8 +12,7 @@
         -224
       ],
       "id": "dd90a36e-a3d5-4c22-87fa-1f6f5857a7ed",
-      "name": "When chat message received",
-      "webhookId": "aa62ce7c-dd51-4db5-9cfe-ae72e9a0ebb4"
+      "name": "When chat message received"
     },
     {
       "parameters": {
@@ -47,13 +46,7 @@
         -48
       ],
       "id": "56afae73-1bb6-49ec-b062-330fff8e7087",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {},
@@ -80,14 +73,7 @@
         -32
       ],
       "id": "07d12cdc-d6ef-4cac-9084-61e3fe003784",
-      "name": "Gmail_send_tool",
-      "webhookId": "08112640-82fc-4ba2-a223-04dff1cdb5da",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "XNbRso1a8FzugbL8",
-          "name": "Gmail account"
-        }
-      }
+      "name": "Gmail_send_tool"
     }
   ],
   "pinData": {},
@@ -142,10 +128,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "7cf49fa4-502c-4e89-b16c-c26dab53c386",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
   "id": "RRdYxbWrpiGyWaH9wySTN",
   "tags": []

@@ -13,8 +13,7 @@
         -16
       ],
       "id": "e1af054d-2c8f-4d9e-99ee-746cb04b764a",
-      "name": "When chat message received",
-      "webhookId": "d4e7eb87-fe8c-48b3-abe9-f76ff4a42fa3"
+      "name": "When chat message received"
     },
     {
       "parameters": {
@@ -49,13 +48,7 @@
         192
       ],
       "id": "e7465543-4dc9-4118-a039-efa21b723977",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -102,13 +95,7 @@
         384
       ],
       "id": "d8396746-2d25-4e34-9344-b1da53e5f3bf",
-      "name": "Pinecone Vector Store",
-      "credentials": {
-        "pineconeApi": {
-          "id": "kn6fJg8URi3qn5G7",
-          "name": "PineconeApi account"
-        }
-      }
+      "name": "Pinecone Vector Store"
     },
     {
       "parameters": {
@@ -121,13 +108,7 @@
         560
       ],
       "id": "a5065e86-7eeb-48f6-90fc-74b8d6d5cd69",
-      "name": "Embeddings OpenAI",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Embeddings OpenAI"
     },
     {
       "parameters": {
@@ -147,13 +128,7 @@
         400
       ],
       "id": "bfaa2104-67e5-4d17-bb08-96f5c878ec29",
-      "name": "OpenAI Chat Model1",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model1"
     }
   ],
   "pinData": {},
@@ -241,10 +216,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "1d9738ac-e2a2-4da3-9b10-aa50d2d77dda",
-  "meta": {
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
-  },
+  "meta": {},
   "id": "rq__HJnltF4jkACse3jHu",
   "tags": []
 }

@@ -19,13 +19,7 @@
         -224
       ],
       "id": "1efdd199-3a07-4df0-81d5-cf42502d9132",
-      "name": "Gmail Trigger",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "PG76kbpYLSzlilNH",
-          "name": "Gmail account 2"
-        }
-      }
+      "name": "Gmail Trigger"
     },
     {
       "parameters": {
@@ -83,13 +77,7 @@
         48
       ],
       "id": "93577bc7-4119-40de-881b-4c31cf0e5942",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -179,13 +167,7 @@
         -256
       ],
       "id": "e33aed47-1289-4b36-9f81-2aa2cc9bb368",
-      "name": "Message a model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Message a model"
     },
     {
       "parameters": {
@@ -201,14 +183,7 @@
         -256
       ],
       "id": "fb87bfc0-3e56-442f-ba0d-45f08cfb12ba",
-      "name": "Reply to a message",
-      "webhookId": "5a086b33-dc03-411d-8b66-3e348e698427",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "PG76kbpYLSzlilNH",
-          "name": "Gmail account 2"
-        }
-      }
+      "name": "Reply to a message"
     }
   ],
   "pinData": {},
@@ -303,10 +278,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "9d03e19d-580f-45a6-868a-73faf9433af7",
-  "meta": {
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
-  },
+  "meta": {},
   "id": "Jrb3HodlE7NLvcrT6MF62",
   "tags": []
 }

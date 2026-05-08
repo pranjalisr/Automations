@@ -30,8 +30,7 @@
         0
       ],
       "id": "a563c331-8e62-4299-a887-afff06ad20d5",
-      "name": "On form submission",
-      "webhookId": "f519bea9-c85a-4392-b984-8703dc2c2c2b"
+      "name": "On form submission"
     },
     {
       "parameters": {
@@ -73,13 +72,7 @@
         208
       ],
       "id": "f9faf358-f746-4120-9067-34b054c28be3",
-      "name": "OpenAI Chat Model1",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model1"
     },
     {
       "parameters": {
@@ -128,13 +121,7 @@
         -112
       ],
       "id": "40050910-c88f-4b0a-89e1-39516bd38f9e",
-      "name": "Append row in sheet",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "iPSoxfbIMMYlhzKx",
-          "name": "Google Sheets account 2"
-        }
-      }
+      "name": "Append row in sheet"
     }
   ],
   "pinData": {},
@@ -200,10 +187,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "6cd138d3-57e3-4a97-b61e-df6d5d7eb192",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
   "id": "l1JCshWkoY8yrRQb",
   "tags": []

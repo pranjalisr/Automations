@@ -15,8 +15,7 @@
           "__rl": true,
           "value": "1QViK3i7Sr0whCTuLPBu_HNrxtC4_uqOV",
           "mode": "list",
-          "cachedResultName": "Tesla running",
-          "cachedResultUrl": "https://drive.google.com/drive/folders/1QViK3i7Sr0whCTuLPBu_HNrxtC4_uqOV"
+          "cachedResultName": "Tesla running"
         },
         "event": "fileCreated",
         "options": {}
@@ -28,13 +27,7 @@
         0
       ],
       "id": "eb8f0320-b2ad-424e-b04d-d03076743439",
-      "name": "Google Drive Trigger",
-      "credentials": {
-        "googleDriveOAuth2Api": {
-          "id": "TI7t7P0VFsBSRfQ6",
-          "name": "Google Drive account 2"
-        }
-      }
+      "name": "Google Drive Trigger"
     },
     {
       "parameters": {
@@ -53,13 +46,7 @@
         0
       ],
       "id": "e161aec2-9ca8-4457-824e-db9660270211",
-      "name": "Download file",
-      "credentials": {
-        "googleDriveOAuth2Api": {
-          "id": "TI7t7P0VFsBSRfQ6",
-          "name": "Google Drive account 2"
-        }
-      }
+      "name": "Download file"
     },
     {
       "parameters": {
@@ -81,13 +68,7 @@
         0
       ],
       "id": "17c1e7e9-42cf-40a0-af96-167c38a2224f",
-      "name": "Pinecone Vector Store",
-      "credentials": {
-        "pineconeApi": {
-          "id": "kn6fJg8URi3qn5G7",
-          "name": "PineconeApi account"
-        }
-      }
+      "name": "Pinecone Vector Store"
     },
     {
       "parameters": {
@@ -100,13 +81,7 @@
         208
       ],
       "id": "1a865cd3-0f58-4df5-9a95-c909c0080fa0",
-      "name": "Embeddings OpenAI",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Embeddings OpenAI"
     },
     {
       "parameters": {
@@ -211,10 +186,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "f9179d86-903e-40f9-b0f4-48859e4a69f0",
-  "meta": {
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
-  },
+  "meta": {},
   "id": "lEAldTsFufcDgjDmW1lbQ",
   "tags": []
 }

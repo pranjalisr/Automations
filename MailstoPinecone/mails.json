@@ -24,13 +24,7 @@
         -64
       ],
       "id": "4c1d4f09-e97b-4591-bcd8-b2da30ad145e",
-      "name": "Get a document",
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "WULY4jfxHePFPF0l",
-          "name": "Google Docs account"
-        }
-      }
+      "name": "Get a document"
     },
     {
       "parameters": {
@@ -52,13 +46,7 @@
         -64
       ],
       "id": "ee90a21b-fc0a-4d4a-b87a-03da57b7275a",
-      "name": "Pinecone Vector Store",
-      "credentials": {
-        "pineconeApi": {
-          "id": "kn6fJg8URi3qn5G7",
-          "name": "PineconeApi account"
-        }
-      }
+      "name": "Pinecone Vector Store"
     },
     {
       "parameters": {
@@ -71,13 +59,7 @@
         144
       ],
       "id": "a4296b14-4521-4027-ab0f-45b006f8be6b",
-      "name": "Embeddings OpenAI",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Embeddings OpenAI"
     },
     {
       "parameters": {
@@ -146,10 +128,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "9b42f12b-9437-4b19-9437-7389ec7409c3",
-  "meta": {
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
-  },
+  "meta": {},
   "id": "bdDXizcaeyb7ownghndaA",
   "tags": []
 }

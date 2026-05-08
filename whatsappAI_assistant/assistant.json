@@ -15,14 +15,7 @@
         -160
       ],
       "id": "96e8aeca-90fb-4d81-ad6d-bdb289a432c3",
-      "name": "WhatsApp Trigger",
-      "webhookId": "d839dc6c-d464-41dd-8b52-42b7ca9642df",
-      "credentials": {
-        "whatsAppTriggerApi": {
-          "id": "gypUi8nNF6cF0EhH",
-          "name": "WhatsApp OAuth account"
-        }
-      }
+      "name": "WhatsApp Trigger"
     },
     {
       "parameters": {
@@ -58,13 +51,7 @@
         48
       ],
       "id": "3424414f-f78e-4240-ae85-6f61d9e6550c",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -95,14 +82,7 @@
         -160
       ],
       "id": "9d2d00f9-d7cb-45e3-98f5-fbeb5707b499",
-      "name": "Send message",
-      "webhookId": "b67502eb-65c9-46b2-b5a9-44e9ae9f5362",
-      "credentials": {
-        "whatsAppApi": {
-          "id": "l2ad0PPxLv2jOR1j",
-          "name": "WhatsApp account"
-        }
-      }
+      "name": "Send message"
     },
     {
       "parameters": {},
@@ -142,14 +122,7 @@
         240
       ],
       "id": "f40d418b-2786-4016-b7b4-e17ed0b97e39",
-      "name": "Send a message in Gmail",
-      "webhookId": "5fba18b6-7f56-410e-a6bb-d18d76aa96ec",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "PG76kbpYLSzlilNH",
-          "name": "Gmail account 2"
-        }
-      }
+      "name": "Send a message in Gmail"
     }
   ],
   "pinData": {},
@@ -237,10 +210,8 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "1339831c-2ff5-4e04-823a-5debed04906d",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+    "templateCredsSetupCompleted": true
   },
   "id": "-mngmC7Y8Qo0LEm0gE7ow",
   "tags": []

@@ -12,8 +12,7 @@
         -256
       ],
       "id": "48a724b8-9220-4cd5-b260-89a7e1a2a7f1",
-      "name": "When chat message received",
-      "webhookId": "1d572395-fa64-4178-a2f0-3cfa01cac16a"
+      "name": "When chat message received"
     },
     {
       "parameters": {
@@ -45,13 +44,7 @@
         -64
       ],
       "id": "ab632814-9874-42ec-bd5d-ea2c21e82811",
-      "name": "OpenAI Chat Model",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model"
     },
     {
       "parameters": {
@@ -85,13 +78,7 @@
         288
       ],
       "id": "23c4df4e-efbe-4613-bfbc-844d0adaac5a",
-      "name": "Pinecone Vector Store",
-      "credentials": {
-        "pineconeApi": {
-          "id": "kn6fJg8URi3qn5G7",
-          "name": "PineconeApi account"
-        }
-      }
+      "name": "Pinecone Vector Store"
     },
     {
       "parameters": {
@@ -104,13 +91,7 @@
         496
       ],
       "id": "c8c52282-81fe-499d-8c14-8ad804797dfb",
-      "name": "Embeddings OpenAI",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "Embeddings OpenAI"
     },
     {
       "parameters": {
@@ -130,13 +111,7 @@
         176
       ],
       "id": "5bcfb65c-3f87-489d-a3d0-bfcc428a518c",
-      "name": "OpenAI Chat Model1",
-      "credentials": {
-        "openAiApi": {
-          "id": "K98cAVWqGIEGydeI",
-          "name": "OpenAi account"
-        }
-      }
+      "name": "OpenAI Chat Model1"
     },
     {
       "parameters": {
@@ -145,7 +120,6 @@
           "__rl": true,
           "value": "bq_HyoLwilcAUs9QyuqMV",
           "mode": "list",
-          "cachedResultUrl": "/workflow/bq_HyoLwilcAUs9QyuqMV",
           "cachedResultName": "Send Mails Pinecone"
         },
         "workflowInputs": {
@@ -252,10 +226,7 @@
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "4f901ce3-f5d8-462c-89e4-c0490b714fe9",
-  "meta": {
-    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
-  },
+  "meta": {},
   "id": "u16qGWCeZRPS7KPnUbYBU",
   "tags": []
 }
