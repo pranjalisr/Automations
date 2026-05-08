@@ -1,3 +1,7 @@
+<img width="1308" height="562" alt="Screenshot 2026-05-09 at 00 14 37" src="https://github.com/user-attachments/assets/5b112f42-9981-4d66-8f7c-7c3844a8c71c" />
+
+
+
 # 🤖 RAG Chatbot with Pinecone — n8n Workflow
 
 An AI-powered Retrieval-Augmented Generation (RAG) chatbot built with n8n using OpenAI and Pinecone Vector Store.
