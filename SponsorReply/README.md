@@ -1,3 +1,6 @@
+<img width="1308" height="438" alt="Screenshot 2026-05-08 at 23 27 46" src="https://github.com/user-attachments/assets/bf4473e0-6c32-41a8-a84e-bb2d2bd684c0" />
+
+
 # 📧 AI Sponsor Reply Automation — n8n Workflow
 
 An AI-powered Gmail automation built with n8n that intelligently analyzes incoming sponsor or partnership emails and automatically generates professional replies using OpenAI.
