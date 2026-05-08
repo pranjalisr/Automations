@@ -1,0 +1,155 @@
+{
+  "name": "Mails to Pinecone",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -480,
+        -64
+      ],
+      "id": "b56867c8-e9eb-49b0-8546-bdd7a218eacc",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "documentURL": "https://docs.google.com/document/d/1cKgRcSS2s1jCEQeCzW5IqpfRl3gb__YJQE9Z2totdrY/edit?tab=t.0"
+      },
+      "type": "n8n-nodes-base.googleDocs",
+      "typeVersion": 2,
+      "position": [
+        -272,
+        -64
+      ],
+      "id": "4c1d4f09-e97b-4591-bcd8-b2da30ad145e",
+      "name": "Get a document",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "WULY4jfxHePFPF0l",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "pineconeIndex": {
+          "__rl": true,
+          "value": "n8ntesladrive",
+          "mode": "list",
+          "cachedResultName": "n8ntesladrive"
+        },
+        "options": {
+          "pineconeNamespace": "docsmail"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStorePinecone",
+      "typeVersion": 1.3,
+      "position": [
+        -64,
+        -64
+      ],
+      "id": "ee90a21b-fc0a-4d4a-b87a-03da57b7275a",
+      "name": "Pinecone Vector Store",
+      "credentials": {
+        "pineconeApi": {
+          "id": "kn6fJg8URi3qn5G7",
+          "name": "PineconeApi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        -176,
+        144
+      ],
+      "id": "a4296b14-4521-4027-ab0f-45b006f8be6b",
+      "name": "Embeddings OpenAI",
+      "credentials": {
+        "openAiApi": {
+          "id": "K98cAVWqGIEGydeI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "dataType": "binary",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        144
+      ],
+      "id": "5deb612e-8291-4f8e-b645-3a8a46e0a30b",
+      "name": "Default Data Loader"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get a document",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings OpenAI": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get a document": {
+      "main": [
+        [
+          {
+            "node": "Pinecone Vector Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "9b42f12b-9437-4b19-9437-7389ec7409c3",
+  "meta": {
+    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+  },
+  "id": "bdDXizcaeyb7ownghndaA",
+  "tags": []
+}
