@@ -1,0 +1,210 @@
+{
+  "name": "My workflow 5",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Review",
+        "formDescription": "how satisfied are you",
+        "formFields": {
+          "values": [
+            {
+              "fieldName": "Name",
+              "fieldLabel": "Pranjali",
+              "placeholder": "Your Name",
+              "requiredField": true
+            },
+            {
+              "fieldName": "Your Review",
+              "fieldLabel": "Your Review",
+              "placeholder": "Your Name",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.4,
+      "position": [
+        -160,
+        0
+      ],
+      "id": "a563c331-8e62-4299-a887-afff06ad20d5",
+      "name": "On form submission",
+      "webhookId": "f519bea9-c85a-4392-b984-8703dc2c2c2b"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json['Your Review'] }}",
+        "messages": {
+          "messageValues": [
+            {
+              "message": "=You are an expert in sentiment analysis. You conduct evaluations and determine which of the three option applies:\n\nPositive\nNegative\nNeutral\nYou respond with only one word."
+            }
+          ]
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.8,
+      "position": [
+        96,
+        128
+      ],
+      "id": "1a385fc3-49d9-40a7-bd68-59361c0a1d25",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "value": "gpt-4o",
+          "mode": "list",
+          "cachedResultName": "gpt-4o"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -64,
+        208
+      ],
+      "id": "f9faf358-f746-4120-9067-34b054c28be3",
+      "name": "OpenAI Chat Model1",
+      "credentials": {
+        "openAiApi": {
+          "id": "K98cAVWqGIEGydeI",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineByPosition",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        416,
+        16
+      ],
+      "id": "2bc01da5-4909-4237-89cd-9c835ab83d6d",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "=This is a test",
+          "mode": "id"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "=Sheet1",
+          "mode": "id"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "handlingExtraData": "insertInNewColumn"
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        48,
+        -112
+      ],
+      "id": "40050910-c88f-4b0a-89e1-39516bd38f9e",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "iPSoxfbIMMYlhzKx",
+          "name": "Google Sheets account 2"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Append row in sheet": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "6cd138d3-57e3-4a97-b61e-df6d5d7eb192",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f5409e651d42f3918aae4f6607c5db8b251b7ecff1bab3e362064ba8a3e03fb3"
+  },
+  "id": "l1JCshWkoY8yrRQb",
+  "tags": []
+}
