@@ -1,3 +1,8 @@
+<img width="1177" height="562" alt="Screenshot 2026-05-09 at 00 27 09" src="https://github.com/user-attachments/assets/c38f0296-86f9-4a68-a987-3adc18bfb3cd" />
+
+
+
+
 # 🧠 AI Form Response Automation — n8n Workflow
 
 An AI-powered form processing workflow built with n8n that captures form submissions, stores responses in Google Sheets, and generates intelligent AI-powered outputs using OpenAI.
