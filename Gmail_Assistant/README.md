@@ -1,3 +1,6 @@
+<img width="880" height="563" alt="Screenshot 2026-05-12 at 20 51 25" src="https://github.com/user-attachments/assets/576badcc-71eb-445e-8228-8a2ba89c776d" />
+
+
 # 📧 AI Gmail Assistant — n8n Workflow
 
 An AI-powered Gmail assistant built with n8n that enables conversational email automation using OpenAI Agents, memory, and Gmail integration.
